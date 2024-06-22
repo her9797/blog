@@ -1,14 +1,18 @@
 import React from 'react';
-import Aside from './components/Aside';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './style.css';
+import Layout from './layouts/Layout';
+import Main from './Main';
 
 const App = () => {
     return (
-        <div id="colorlib-page">
-            <Aside /> 
-            <div id="colorlib-main">
-            </div>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route element={<Layout />}>
+                    <Route index element={<Main />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
     );
 };
 
