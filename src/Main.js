@@ -2,8 +2,21 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
+
 
 const Main = () => {
+
+    const iconStyle = (backgroundColor) => ({
+        display: 'inline-flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '40px',
+        height: '40px',
+        borderRadius: '50%',
+        backgroundColor: backgroundColor,
+    });
+
     return (
         <div id="colorlib-page">
             <section className="ftco-section-no-padding bg-light">
@@ -19,10 +32,10 @@ const Main = () => {
                                 style={{ height: '953px' }}
                             >
                                 <div className="item">
-                                    <img className="slider-item js-fullheight" style={{height: '953px'}} src="/minseop1.jpg" />
+                                    <img className="slider-item js-fullheight" style={{ height: '953px' }} src="/minseop1.jpg" />
                                 </div>
                                 <div className="item">
-                                    <img className="slider-item js-fullheight" style={{height: '953px'}} src="/minseop2.jpg" />
+                                    <img className="slider-item js-fullheight" style={{ height: '953px' }} src="/minseop2.jpg" />
                                 </div>
                             </OwlCarousel>
                         </div>
@@ -39,18 +52,18 @@ const Main = () => {
                                 <h3 className="signature h1">Sim minseop</h3>
                                 <ul className="ftco-social mt-3">
                                     <li className="ftco-animate fadeInUp ftco-animated">
-                                        <a href="#">
-                                            <span className="icon-twitter"></span>
+                                        <a href="https://github.com/her9797" style={iconStyle('#000000')}>
+                                            <FaGithub style={{ color: '#ffffff', fontSize: '20px' }} />
                                         </a>
                                     </li>
                                     <li className="ftco-animate fadeInUp ftco-animated">
-                                        <a href="#">
-                                            <span className="icon-facebook"></span>
+                                        <a href="https://www.instagram.com/min.sup/coding_ori/" style={iconStyle('#000000')}>
+                                            <FaYoutube style={{ color: '#ffffff', fontSize: '20px' }} />
                                         </a>
                                     </li>
                                     <li className="ftco-animate fadeInUp ftco-animated">
-                                        <a href="#">
-                                            <span className="icon-instagram"></span>
+                                        <a href="https://www.youtube.com/@her97/coding_ori" style={iconStyle('#000000')}>
+                                            <FaInstagram style={{ color: '#ffffff', fontSize: '20px' }} />
                                         </a>
                                     </li>
                                 </ul>
@@ -68,37 +81,30 @@ const Main = () => {
                     </div>
                     <div className="row no-gutters">
                         <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="images/image_1.jpg" className="insta-img image-popup" style={{ backgroundImage: 'url(images/image_1.jpg)' }}>
+                            <a href="https://github.com/her9797/LOGIN" className="insta-img image-popup" style={{ backgroundImage: 'url(images/login1.gif)' }}>
                                 <div className="icon d-flex justify-content-center">
-                                    <span className="icon-instagram align-self-center"></span>
+                                    <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
                                 </div>
                             </a>
                         </div>
                         <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="images/image_2.jpg" className="insta-img image-popup" style={{ backgroundImage: 'url(images/image_2.jpg)' }}>
+                            <a href="https://github.com/her9797/LOGIN" className="insta-img image-popup" style={{ backgroundImage: 'url(images/login2.jpg)' }}>
                                 <div className="icon d-flex justify-content-center">
-                                    <span className="icon-instagram align-self-center"></span>
+                                    <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
                                 </div>
                             </a>
                         </div>
                         <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="images/image_3.jpg" className="insta-img image-popup" style={{ backgroundImage: 'url(images/image_3.jpg)' }}>
+                            <a href="https://github.com/her9797/REVEL-UP" className="insta-img image-popup" style={{ backgroundImage: 'url(images/revelup1.jpg)' }}>
                                 <div className="icon d-flex justify-content-center">
-                                    <span className="icon-instagram align-self-center"></span>
+                                    <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
                                 </div>
                             </a>
                         </div>
                         <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="images/image_4.jpg" className="insta-img image-popup" style={{ backgroundImage: 'url(images/image_4.jpg)' }}>
+                            <a href="https://github.com/her9797/REVEL-UP" className="insta-img image-popup" style={{ backgroundImage: 'url(images/revelup2.jpg)' }}>
                                 <div className="icon d-flex justify-content-center">
-                                    <span className="icon-instagram align-self-center"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="images/image_5.jpg" className="insta-img image-popup" style={{ backgroundImage: 'url(images/image_5.jpg)' }}>
-                                <div className="icon d-flex justify-content-center">
-                                    <span className="icon-instagram align-self-center"></span>
+                                    <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
                                 </div>
                             </a>
                         </div>
