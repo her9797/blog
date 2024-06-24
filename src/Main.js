@@ -81,28 +81,22 @@ const Main = () => {
                     </div>
                     <div className="row no-gutters">
                         <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="https://github.com/her9797/LOGIN" className="insta-img image-popup" style={{ backgroundImage: 'url(images/login1.gif)' }}>
+                            <a href="https://github.com/her9797/LOGIN" className="insta-img image-popup" style={{ backgroundImage: 'url(images/login1.jpg)', border: 'solid 1px #D4D4D4' }}>
                                 <div className="icon d-flex justify-content-center">
                                     <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
                                 </div>
                             </a>
                         </div>
                         <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="https://github.com/her9797/LOGIN" className="insta-img image-popup" style={{ backgroundImage: 'url(images/login2.jpg)' }}>
+                            <a href="https://github.com/her9797/LOGIN" className="insta-img image-popup" style={{ backgroundImage: 'url(images/revelup2.jpg)', border: 'solid 1px #D4D4D4' }}>
                                 <div className="icon d-flex justify-content-center">
-                                    <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
+                                    <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }}/>
                                 </div>
                             </a>
                         </div>
+                        
                         <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="https://github.com/her9797/REVEL-UP" className="insta-img image-popup" style={{ backgroundImage: 'url(images/revelup1.jpg)' }}>
-                                <div className="icon d-flex justify-content-center">
-                                    <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-sm-12 col-md ftco-animate fadeInUp ftco-animated">
-                            <a href="https://github.com/her9797/REVEL-UP" className="insta-img image-popup" style={{ backgroundImage: 'url(images/revelup2.jpg)' }}>
+                            <a href="https://github.com/her9797/blog" className="insta-img image-popup" style={{ backgroundImage: 'url(images/blog1.jpg)', border: 'solid 1px #D4D4D4' }}>
                                 <div className="icon d-flex justify-content-center">
                                     <FaGithub style={{ color: '#ffffff', fontSize: '100px', marginBottom: 'auto', marginTop: 'auto' }} />
                                 </div>
