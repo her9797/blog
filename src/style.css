@@ -10438,13 +10438,13 @@
    -webkit-transition: .3s all ease;
    -o-transition: .3s all ease;
    transition: .3s all ease;
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  a:hover,
  a:focus {
    text-decoration: none;
-   color: #ccb78f;
+   color: #4A97B4;
    outline: none !important;
  }
 
@@ -11069,7 +11069,7 @@
    -ms-transform: translateY(-50%);
    transform: translateY(-50%);
    margin-top: -10px;
-   color: #ccb78f !important;
+   color: #4A97B4 !important;
    -moz-transition: all 0.7s ease;
    -o-transition: all 0.7s ease;
    -webkit-transition: all 0.7s ease;
@@ -11392,26 +11392,26 @@
  }
 
  .btn.btn-primary {
-   background: #ccb78f;
-   border: 1px solid #ccb78f;
+   background: #4A97B4;
+   border: 1px solid #4A97B4;
    color: #fff;
  }
 
  .btn.btn-primary:hover {
-   border: 1px solid #ccb78f;
+   border: 1px solid #4A97B4;
    background: transparent;
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .btn.btn-primary.btn-outline-primary {
-   border: 1px solid #ccb78f;
+   border: 1px solid #4A97B4;
    background: transparent;
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .btn.btn-primary.btn-outline-primary:hover {
    border: 1px solid transparent;
-   background: #ccb78f;
+   background: #4A97B4;
    color: #fff;
  }
 
@@ -11425,7 +11425,7 @@
  .btn.btn-white:focus,
  .btn.btn-white:active {
    border: 1px solid #fff;
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .btn.btn-white.btn-outline-white {
@@ -11444,11 +11444,11 @@
  .btn.btn-white.btn-outline-white:active {
    background: #fff;
    border-color: #fff;
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .ftco-bread {
-   background: #ccb78f !important;
+   background: #4A97B4 !important;
    padding: 4em 1.8em !important;
  }
 
@@ -11571,7 +11571,7 @@
  .ftco-counter .text strong.number {
    font-weight: 400;
    font-size: 40px;
-   color: #ccb78f;
+   color: #4A97B4;
    width: 50%;
  }
 
@@ -11592,7 +11592,7 @@
    display: block;
    font-size: 72px;
    font-weight: bold;
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .ftco-counter .ftco-label {
@@ -11834,7 +11834,7 @@
 
  .footer-small-nav>li a:hover,
  .footer-small-nav>li a:focus {
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .media .ftco-icon {
@@ -11842,7 +11842,7 @@
  }
 
  .media .ftco-icon span {
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .ftco-social {
@@ -11977,7 +11977,7 @@
  }
 
  .bg-primary {
-   background: #ccb78f !important;
+   background: #4A97B4 !important;
  }
 
  .image-popup {
@@ -12054,7 +12054,7 @@
 
  .block-27 ul li a,
  .block-27 ul li span {
-   border: 1px solid #ccb78f;
+   border: 1px solid #4A97B4;
    text-align: center;
    display: inline-block;
    width: 40px;
@@ -12065,7 +12065,7 @@
 
  .block-27 ul li.active a,
  .block-27 ul li.active span {
-   background: #ccb78f;
+   background: #4A97B4;
    color: #fff;
    border: 1px solid transparent;
  }
@@ -12110,7 +12110,7 @@
  .block-21 .text .heading a:hover,
  .block-21 .text .heading a:active,
  .block-21 .text .heading a:focus {
-   color: #ccb78f;
+   color: #4A97B4;
  }
 
  .block-21 .text .meta>div {
